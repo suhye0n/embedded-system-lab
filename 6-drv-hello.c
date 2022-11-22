@@ -33,6 +33,8 @@ static ssize_t hello_write(struct file* fp, const char* buffer, size_t bufsize, 
   i = length + 2;
   while (i--) printk("*");
   printk("\n*%s*\n", knl_buf);
+  printk("20200461 박수현\n"); // 학번 출력
+  printk("20200380 나현진\n"); // 학번 출력
   i = length + 2;
   while (i--) printk("*");
   printk("\n");
